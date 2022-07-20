@@ -1,0 +1,61 @@
+body{
+  background-image: url(toko.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.menu{
+  width: 100%;
+  align-content: flex-start;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  max-width: 300px;
+  height: 675px;
+  text-align: center;
+  font-family: arial;
+  float: left;
+  margin: 10px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #198754;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 15px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.beli{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #198754;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 15px;
+}
+
+.beli:hover{
+  opacity: 0.7;
+}
